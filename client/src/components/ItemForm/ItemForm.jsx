@@ -2,7 +2,7 @@ import {useContext, useState} from "react";
 import {assets} from "../../assets/assets.js";
 import {AppContext} from "../../context/AppContext.jsx";
 import toast from "react-hot-toast";
-import {addItem} from "../../Service/ItemService.js";
+import {addItem} from "../../service/ItemService.js";
 
 const ItemForm = () => {
     const {categories, setItemsData, itemsData, setCategories} = useContext(AppContext);

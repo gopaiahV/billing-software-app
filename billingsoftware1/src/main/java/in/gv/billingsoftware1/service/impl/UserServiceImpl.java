@@ -1,13 +1,10 @@
 package in.gv.billingsoftware1.service.impl;
-
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
-
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 import in.gv.billingsoftware1.entity.UserEntity;
 import in.gv.billingsoftware1.io.UserRequest;
 import in.gv.billingsoftware1.io.UserResponse;
